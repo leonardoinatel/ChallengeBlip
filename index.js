@@ -18,4 +18,4 @@ app.get(
   repositoryController.getRepository
 );
 
-app.listen(PORT, () => console.log('API rodando na porta 3000!'));
+app.listen(PORT, () => console.log(`API rodando na porta ${PORT}!`));

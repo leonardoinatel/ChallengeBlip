@@ -15,7 +15,7 @@ const convertApi = async (req, res, next) => {
   const csharpOrderByDate = csharp.map((item) => data[item]);
   const array = arraySort(csharpOrderByDate, 'created_at').slice(0,5);
   const cSharpSorted = arraySort(array, 'created_at', { reverse: true })
-  const result = cSharpSorted.map(({full_name, owner: { avatar_url }, description }) => (
+  const result = cSharpSorted.map(({full_name, owner: { avatar_url }, description }, index) => (
     { header: { 
         type: "application/vnd.lime.media-link+json",
         value: { 
@@ -24,7 +24,19 @@ const convertApi = async (req, res, next) => {
           type: "image/png",
           uri: avatar_url,
         }
-      }}))
+      },
+      options: [
+        {
+          value: {
+            type: "application/json",
+            value: {
+                key1: `value${index}`,
+                key2: index
+            }
+          }
+        }
+      ]
+    }))
   
   req.result = setJsonCarousel(result);
 
