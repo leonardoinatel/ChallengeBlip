@@ -2,10 +2,10 @@
 
 Aqui voce encontra detalhes da API que foi desenvolvida para o correto funcionamento do chatBot
 
-Nome do bot na plataforma da blip -> Desafio_Carrousel_Leonardo_C_D  
-Id do bot na plataforma da blip -> elfbot
+Nome do bot na plataforma da blip -> **Desafio_Carrousel_Leonardo_C_D**  
+Id do bot na plataforma da blip -> **elfbot**
 
-[>>>>>>>>>>>>>>> API DESENVOLVIDA - HEROKU <<<<<<<<<<<<<<<<<<<](https://leonardoinatel-challenge.herokuapp.com/repository)
+[>>>>>>>>>>>>>>> API DESENVOLVIDA - ONLINE - HEROKU <<<<<<<<<<<<<<<<<<<](https://leonardoinatel-challenge.herokuapp.com/repository)
 
 - No `localStorage` do navegador:
 
