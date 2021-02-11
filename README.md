@@ -7,7 +7,7 @@ Id do bot na plataforma da blip -> **elfbot**
 
 [>>>>>>>>>>>>>>> API DESENVOLVIDA - ONLINE - HEROKU <<<<<<<<<<<<<<<<<<<](https://leonardoinatel-challenge.herokuapp.com/repository)
 
-- No `localStorage` do navegador:
+- Formato do Json:
 
   - O valor da chave `items` contém um array de objetos
 
